@@ -1,0 +1,50 @@
+4 -
+
+a) add(int index, E element);
+
+Descrição:
+Este método insere o elemento especificado no índice fornecido da lista.
+Ele desloca os elementos existentes para a direita (aumentando seus índices)
+para abrir espaço para o novo elemento. Retorna true se a operação for bem-sucedida.
+
+b) get(int index);
+
+Descrição:
+Este método retorna o elemento no índice especificado na lista.
+É utilizado para acessar o elemento em uma determinada posição na lista.
+Se a lista não contiver um elemento no índice fornecido, uma exceção
+'IndexOutOfBoundsException' será lançada.
+
+c) remove(int index);
+
+Descrição:
+Este método remove o elemento no índice especificado na lista.
+Ele desloca os elementos subsequentes para a esquerda (reduzindo seus índices)
+para preencher o espaço deixado pela remoção. Retorna o elemento removido da lista.
+Se a lista não contiver um elemento no índice fornecido, uma exceção
+'IndexOutOfBoundsException' será lançada.
+
+5-
+
+a) add(E element);
+
+Descrição:
+Este método adiciona o elemento especificado ao conjunto,
+se o conjunto não contiver o elemento.
+Retorna 'true' se o elemento for adicionado com sucesso
+e 'false' se o conjunto já contiver o elemento.
+
+b) contains(Object o);
+
+Descrição:
+Este método verifica se o conjunto contém o elemento especificado.
+Retorna 'true' se o conjunto contiver o elemento e 'false' caso contrário.
+A comparação de igualdade é feita usando o método 'equals' dos elementos.
+
+c) remove(Object o);
+
+Descrição:
+Este método remove o elemento especificado do conjunto, se estiver presente.
+Retorna 'true' se o elemento foi removido com sucesso e 'false' se o conjunto
+não contiver o elemento. Assim como no método 'contains', a comparação é feita
+usando o método 'equals'.
